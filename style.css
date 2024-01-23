@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.font-manrope{
+    font-family: 'Manrope', sans-serif;
+}
+.hr{
+    border-bottom: 0.5px dashed rgba(19, 19, 24, 0.20);
+}
+
+/* Program Sections */
+.bg-img1{
+  background: linear-gradient(180deg, rgba(19, 19, 24, 0.50) 0%, rgba(19, 19, 24, 0.50) 100%), url('Images/2.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 16px;
+  margin: 0 auto;
+}
+
+.bg-img2{
+  background: linear-gradient(180deg, rgba(19, 19, 24, 0.50) 0%, rgba(19, 19, 24, 0.50) 100%), url('Images/3.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 16px;
+  margin: 0 auto;
+}
+

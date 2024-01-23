@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    
+    <!-- link css -->
+    <link rel="stylesheet" href="style.css">
 
     <!-- tailwind and daisy ui link -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
@@ -15,6 +18,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
         rel="stylesheet">
+
 
 
     <!-- customize style -->
@@ -31,19 +35,7 @@
         }
       </script>
 
-    <style>
-        *{
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        .font-manrope{
-            font-family: 'Manrope', sans-serif;
-        }
-        .hr{
-            border-bottom: 0.5px dashed rgba(19, 19, 24, 0.20);
-        }
-    </style>
+   
 </head>
 
 <body class="font-manrope">
@@ -124,9 +116,9 @@
     </header>
 
     <!-- main section -->
-    <main class="container mx-auto my-28">
+    <main class="container mx-auto my-28 px-5 lg:px-24">
         <!-- club section -->
-        <section class="">
+        <section>
             <div class="hr"></div>
             <div class="text-center">
                 <h2 class="text-2xl lg:text-4xl font-extrabold mt-9 mb-6">Professional Hockeys Club</h2>
@@ -162,6 +154,43 @@
                     <h5 class="text-xl font-semibold mt-6 mb-4">Training Ground</h5>
                     <p class="w-3/4 mx-auto">At our premier training facility, athletes sculpt their prowess, fostering excellence and camaraderie beyond the playing field.</p>
                 </div>
+            </div>
+        </section>
+
+
+        <!-- Program Sections -->
+        <section class="my-28">
+            <div class="hr"></div>
+            <div class="text-center">
+                <h2 class="text-2xl lg:text-4xl font-extrabold mt-9 mb-6">Program Sections</h2>
+                <p class="text-sm lg:text-base w-2/3 mx-auto mb-8">
+                    Explore dynamic programs, from skill development clinics to youth leagues, tailored for all ages and skill levels. Unleash your potential, build connections, and dive into the excitement of the game, finding the perfect program to elevate your hockey passion.</p>
+            </div>
+            <div class="hr"></div>
+
+            <div class="container mx-auto grid grid-cols-1 lg:grid-cols-2 gap-6 mt-12">
+                <!-- img-1 -->
+                <div class="bg-img1 lg:h-[338px] text-white mx-auto">
+                   <div class="my-9 lg:my-[95px] mx-10">
+                      <h4 class="text-xl lg:text-3xl font-extrabold">Junior Program</h4>
+                      <p class="text-sm lg:text-base mt-4 mb-6 font-medium">
+                      Ignite the passion for hockey in our Junior Program, where young players embark on a journey of skill development, camaraderie, and the joy of the game.</p>
+                      <button class="btn bg-primary-color border-none px-5 text-white  font-bold text-lg lg:text-xl">Register Now!</button>
+                   </div>
+                </div>
+
+
+                <!-- img-2 -->
+                <div class="bg-img2 lg:h-[338px] text-white mx-auto">
+                  <div class="my-9 lg:my-[95px] mx-10">
+                     <h4 class="text-xl lg:text-3xl font-extrabold">Teenager Program</h4>
+                     <p class="text-sm lg:text-base mt-4 mb-6 font-medium">
+                      In our Teenager Program, experience the thrill of hockey as young athletes refine their skills, forge friendships, and embrace the excitement of the sport.
+                    </p>
+                     <button class="btn bg-primary-color border-none px-5 text-white  font-bold text-lg lg:text-xl">Register Now!</button>
+                  </div>
+               </div>
+               
             </div>
         </section>
     </main>
