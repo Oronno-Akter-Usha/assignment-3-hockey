@@ -505,6 +505,7 @@
         <div class="hr"></div>
 
         <div class="flex flex-col lg:flex-row mt-12">
+
           <div class="p-6 lg:p-[50px] border border-[rgba(19, 19, 24, 0.10)] rounded-2xl">
               <!-- Phone Number -->
               <div class="p-7 lg:p-8 mb-4 lg:mb-6 bg-[#bced6d1a] rounded-2xl lg:w-[374px] lg:h-[216px]">
@@ -526,14 +527,52 @@
               </div>
           </div>
           <!-- form -->
-          <div>
-            <form action=""></form>
+          <div class="lg:ml-6 mt-6 flex flex-col justify-between w-full">
+            <form action="">
+               <div class="flex flex-col md:flex-row lg:flex-row lg:justify-around gap-5 lg:gap-6 mb-5 lg:mb-6">
+                  <div class="w-full lg:w-2/4">
+                    <label for="" class="font-bold text-xl mb-4">Your Name </label><br>
+                    <input class="p-5 bg-[#13131808] rounded-xl w-full mt-4" type="text" placeholder="Enter your full name">
+                  </div>
+                  <div class="w-full  lg:w-2/4">
+                    <label for="" class="font-bold text-xl mb-4">Your Email </label><br>
+                    <input class="p-5 bg-[#13131808] rounded-xl w-full mt-4" type="email" placeholder="Enter your email">
+                  </div>
+               </div>
+
+               <div class="flex flex-col md:flex-row lg:flex-row lg:justify-around gap-5 lg:gap-6 mb-5 lg:mb-6">
+                <div class="w-full lg:w-2/4">
+                  <label for="" class="font-bold text-xl mb-4">Subject </label><br>
+                  <input class="p-5 bg-[#13131808] rounded-xl w-full mt-4" type="text" placeholder="Enter your subject">
+                </div>
+                <div class="w-full lg:w-2/4">
+                  <label for="" class="font-bold text-xl mb-4">Phone Number </label><br>
+                  <input class="p-5 bg-[#13131808] rounded-xl w-full mt-4" type="number" placeholder="Enter your phone number">
+                </div>
+             </div>
+
+             <div class="w-full">
+                <label for="" class="font-bold text-xl mb-4">Message</label><br>
+                <textarea class="textarea textarea-bordered mt-4 w-full bg-[#13131808] h-[200px] md:h-[250px] lg:h-[370px] text-base" placeholder="Write your message"></textarea>
+             </div>
+
+             <div class="w-full mt-9">
+                <button class="bg-primary-color text-xl font-bold text-white w-full py-4 rounded-xl">Send Message</button>
+             </div>
+
+
+            </form>
           </div>
         </div>
       </section>
 
     </section>
   </main>
+
+
+
+
+
 
 
   <!-- footer -->
